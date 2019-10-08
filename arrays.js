@@ -4,12 +4,12 @@ function addElementToBeginningOfArray(chocolateBars){
 chocolateBars.unshift("mars");
 return chocolateBars;
 }
-/*
+
 function destructivelyAddElementToBeginningOfArray(chocolateBars){
-chocolateBars.unshift("mars");
-return chocolateBars;
+const moreChocolateBars=chocolateBars.unshift("mars");
+return moreChocolateBars;
 }
-*/
+
 function addElementToEndOfArray(){
 
 }
