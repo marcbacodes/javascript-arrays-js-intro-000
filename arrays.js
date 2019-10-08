@@ -21,5 +21,5 @@ function destructivelyAddElementToEndOfArray(chocolateBars){
 }
 
 function accessElementInArray(chocolateBars){
-  console.log(chocolateBars[0]);
+  chocolateBars[0];
 }
