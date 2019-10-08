@@ -6,7 +6,7 @@ return chocolateBars;
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars){
-const moreChocolateBars=chocolateBars.unshift("foo");
+const moreChocolateBars=["foo",... chocolateBars];
 return moreChocolateBars;
 }
 
