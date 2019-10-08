@@ -21,11 +21,9 @@ function destructivelyAddElementToEndOfArray(chocolateBars){
 }
 
 function accessElementInArray(chocolateBars){
-  return chocolateBars[3];
+  chocolateBars[0];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
-  //var newChocolateBars=chocolateBars.shift();
-  return chocolateBars;
-  return chocolateBars.shift();
+  chocolateBars.shift();
 }
