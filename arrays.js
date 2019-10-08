@@ -11,11 +11,11 @@ return chocolateBars;
 }
 
 function addElementToEndOfArray(){
-  const moreChocolateBars=[...chocolateBars,"foo"];
+  const moreChocolateBars=[...chocolateBars,1,"foo"];
   return moreChocolateBars;
 }
 
 function destructivelyAddElementToEndOfArray(){
-  chocolateBars.push("foo");
+  chocolateBars.push(1,"foo");
   return chocolateBars;
 }
