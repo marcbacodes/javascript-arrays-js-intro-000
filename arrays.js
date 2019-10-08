@@ -10,12 +10,12 @@ chocolateBars.unshift("foo");
 return chocolateBars;
 }
 
-function addElementToEndOfArray(){
+function addElementToEndOfArray(chocolateBars){
   const moreChocolateBars=[...chocolateBars,"foo"];
   return moreChocolateBars;
 }
 
-function destructivelyAddElementToEndOfArray(){
+function destructivelyAddElementToEndOfArray(chocolateBars){
   chocolateBars.push("foo");
   return chocolateBars;
 }
