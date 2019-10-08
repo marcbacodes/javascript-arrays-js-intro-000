@@ -1,13 +1,14 @@
 var chocolateBars=["snickers","hundred grand","kitkat","skittles"];
 
 function addElementToBeginningOfArray(chocolateBars){
+const moreChocolateBars=["foo",... chocolateBars];
 chocolateBars.unshift("foo");
 return chocolateBars;
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars){
-const moreChocolateBars=["foo",... chocolateBars];
-return moreChocolateBars;
+chocolateBars.unshift("foo");
+return chocolateBars;
 }
 
 function addElementToEndOfArray(){
